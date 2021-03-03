@@ -6,13 +6,13 @@ import axios from 'axios';
 
 export default class App extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            gifs: [],
-            loading: true
-        }
+constructor() {
+    super();
+    this.state = {
+        gifs: [],
+        loading: true
     }
+}
 
     componentDidMount() {
         this.performSearch();
